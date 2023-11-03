@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>BudgetBuddy</title>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="logo">Budget<span>Buddy</span></div>
+
+            <div>Hey, user</div>
+        </header>
+
+        <section class="formContainer">
+            <form class="incomeForm">
+                <h3>Add your income</h3>
+                <label for="incomeName" class="formLabel">Name</label>
+                <input type="text" placeholder="name" id="incomeName" class="incomeName"/>
+
+                <label for="incomeAmount" class="formLabel">Amount</label>
+                <input type="number" placeholder="amount" id="incomeAmount" class="incomeAmount"/>
+                <button class="btn incomeBtn">+ Income</button>
+            </form>
+
+            <form class="expenseForm">
+                <h3>Add your expenses</h3>
+                <label for="ExpenseName" class="formLabel">Name</label>
+                <input type="text" placeholder="name" id="ExpenseName" class="expenseName"/>
+
+                <label for="expenseAmount" class="formLabel">Amount</label>
+                <input type="number" placeholder="amount" id="expenseAmount" class="expenseAmount"/>
+
+                <!-- <label for="category" class="formLabel">Select a category:</label>
+                <select id="category" name="category" class="expenseOptions>
+                    <option value="category1">Utility Bill</option>
+                    <option value="category2">Groceries</option>
+                    <option value="category3">Recreation/entertainment</option>
+                    <option value="category3">Eating out</option>
+                    <option value="category3">Misc</option>
+                </select> -->
+                <button class="btn expenseBtn">+ Expense</button>
+            </form>
+        </section>
+        <section class="expenseDisplay">
+            <h4>Balance:</h4>
+        </section>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
